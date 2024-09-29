@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandraksh Narayan Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e2f;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #1e1e2f;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: right;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 80vh;
+            padding: 0 50px;
+        }
+
+        .hero-left {
+            max-width: 50%;
+        }
+
+        .hero-left h1 {
+            font-size: 3rem;
+            color: #ffc107;
+            margin-bottom: 20px;
+        }
+
+        .hero-left p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .hero-left .btn {
+            background-color: #ffc107;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .hero-right img {
+            max-width: 400px;
+            border-radius: 10px;
+        }
+
+        /* Section Style */
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .about-section p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .projects-section .row {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .projects-section .col {
+            max-width: 300px;
+            margin: 20px;
+            text-align: left;
+        }
+
+        .skills-section .row {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+
+        .skills-section .col {
+            max-width: 200px;
+            margin: 20px;
+        }
+
+        .contact-section p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #343a40;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-left">
+            <h1>Hi, I'm Chandraksh Narayan</h1>
+            <p>Motivated Third-year Computer Science Engineering student passionate about problem-solving and technology. Dedicated learner and volunteer, aiming to make a positive impact in the tech industry.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+        <div class="hero-right">
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQHuw9E_sWQewQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696953332887?e=1733356800&v=beta&t=_6zAtvL4RDDyNnyFDnsVQpgzHNBboO7PJc6C7AZdFHk" alt="Chandraksh Narayan">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I am currently pursuing a Bachelor's degree in Computer Science with a CGPA of 8.42 from Chandigarh University, Gharuan. I have experience working on various projects involving Machine Learning and is always passionate to learn new things.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col">
+                <h4>Cardiovascular Disease Detection</h4>
+                <p>Developed a Python-based system for cardiovascular disease detection using Machine Learning techniques.</p>
+            </div>
+            <div class="col">
+                <h4>Sentiment Analysis using NLP</h4>
+                <p>Created a model to classify tweets based on sentiment analysis with Natural Language Processing.</p>
+            </div>
+            <div class="col">
+                <h4>EEG Waves Classification</h4>
+                <p>Used Wavelet and Hilbert transform-based feature extraction and classification on EEG waves.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>Technical Skills</h2>
+        <div class="row">
+            <div class="col">
+                <h5>C/C++</h5>
+            </div>
+            <div class="col">
+                <h5>Python</h5>
+            </div>
+            <div class="col">
+                <h5>Java</h5>
+            </div>
+            <div class="col">
+                <h5>Kotlin</h5>
+            </div>
+            <div class="col">
+                <h5>HTML/CSS</h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Email: Chandraksh03@gmail.com</p>
+        <p>Phone: +91 8955764618</p>
+        <p>LinkedIn: <a href="https://in.linkedin.com/in/chandraksh-narayan-582026279" class="text-warning" style="color: #ffc107;">LinkedIn Profile</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Chandraksh Narayan | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
